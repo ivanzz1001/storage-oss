@@ -1,6 +1,12 @@
 # HTTP 100 continue 
 
+参考：
+
+- HTTP RFC: https://datatracker.ietf.org/doc/html/rfc2616
+
 HTTP 100-continue是HTTP协议中的一个机制，允许客户端在发送请求主体之前，先确认服务器是否愿意接受该请求。
+
+
 
 ## 1. GoLang模式实现http 100-continue
 
